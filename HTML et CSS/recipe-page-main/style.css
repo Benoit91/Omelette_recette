@@ -1,0 +1,139 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap'); */
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+* {
+    margin: 0;
+}
+
+span {
+    font-weight: 600;
+}
+
+body {
+    font-family: "Young+Serif";
+    background-color:#F3E5D8;
+}
+
+.page {
+    width: 30%;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 2em !important;
+    margin: auto;
+    display: flex;
+    flex-direction : column;
+    border-radius: 30px;
+    padding: 25PX 35px;      
+}
+
+.page__image img {
+    margin-top: 1.2em;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.paragraphe__li, .paragraphe__ul {
+    margin-left: 1.5em;
+    padding-left: 1.5em;
+    margin-bottom: .5em;
+}
+ol {
+    padding: 0;
+}
+ol>li{
+    line-height: 1.2em;
+    padding: 0;
+    font-size: .95em;
+}
+
+h1 {
+    width: 100%;
+    font-size: 2.4em;
+    margin: .5em 0;
+ }
+
+.page__image p {
+font-size: .95em;
+padding-bottom: 20px;
+}
+
+ul,ol>li {
+    padding-left: 1em;
+}
+
+.paragraphe__li::marker, ul li::marker {
+    color:  hsl(14, 45%, 36%); /* Applique la couleur uniquement aux pastilles */
+    font-size: inherit; /* Garde les pastilles cohérentes avec le texte */
+    font-weight: 700;
+}
+
+.paragraphe__ul::marker {
+    color: hsl(332, 51%, 32%);
+    font-size: inherit;
+}
+
+.paragraphe {
+    padding-top: 1em;
+    Font-size : 1em;
+}
+.Preparation h2 {
+    font-size: 1.3em;
+    font-family: 'Young';
+    margin: 0px 20px;
+    color : hsl(332, 51%, 32%);
+    padding-top: 20px;
+}
+
+.Preparation {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.title__paragraphe {
+    padding-top: 20px;
+    font-size: 2em;
+    color : hsl(14, 45%, 36%)
+}
+
+.title__paragraphe__p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: start;
+}
+
+.title {
+    padding-bottom: 25px;
+    border-bottom: solid 1px grey;
+}
+
+.linear {
+    padding-left: .7em;
+    text-align: left;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 2fr 2fr;
+    font-size: 1em;
+}
+
+ .linear__top {
+    border-top: solid 1px grey;
+ }
+
+.linear p {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.grid span {
+
+    color : hsl(14, 45%, 36%);
+    font-size: 1em;
+    padding: 10px; 
+    padding-left: 1.3em;
+}
